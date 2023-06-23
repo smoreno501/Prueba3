@@ -31,5 +31,12 @@
             ?>
         </tbody
     </table>
+
 </body>
+
+<div class="api">
+<div class="maps">
+<iframe class="apigoogle" src="http://api.datos.gob.mx/v1/calidadAire"></iframe>
+</div>
+
 </html>

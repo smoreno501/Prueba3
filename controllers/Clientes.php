@@ -9,6 +9,7 @@ class ClientesController {
         $data["clientes"] = $clientes->get_clientes();
 
         require_once "views/clientes/clientes.php";
+        require_once "views/clientes/footer.php";
     }
     public function nuevo(){
            $data["titulo"] ="clientes";  
